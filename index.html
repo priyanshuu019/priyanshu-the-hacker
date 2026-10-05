@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050b08">
+  <title>PRIYANSHU // THE HACKER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="matrix"></canvas>
+  <div class="scanlines"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home"><span>PRIYANSHU</span><b>//</b> CYBER</a>
+    <nav>
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#terminal">TERMINAL</a>
+    </nav>
+    <button class="menu" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <div class="status"><i></i> SYSTEM ONLINE</div>
+        <p class="eyebrow">WELCOME TO THE DIGITAL GRID</p>
+        <h1 data-text="PRIYANSHU">PRIYANSHU</h1>
+        <h2>THE <span>HACKER</span></h2>
+        <p class="intro">Code. Create. Explore. Learn. A cyber-themed personal space built around technology, creativity and curiosity.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#terminal">ENTER TERMINAL <span>→</span></a>
+          <a class="btn" href="#about">IDENTITY FILE</a>
+        </div>
+      </div>
+
+      <div class="hero-terminal">
+        <div class="terminal-head">
+          <span><i></i><i></i><i></i></span>
+          <b>priyanshu@cyber:~</b>
+          <small>SECURE</small>
+        </div>
+        <div class="terminal-body" id="bootTerminal"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-tag">01 // IDENTITY</div>
+      <div class="grid two">
+        <div>
+          <h3>WHO IS <span>PRIYANSHU?</span></h3>
+          <p>Welcome to my digital corner. I’m interested in coding, technology, creative web design and learning how digital systems work.</p>
+          <p class="muted">This website is a fictional cyber identity and a safe demonstration of hacker-style visuals. It does not perform real hacking or unauthorized access.</p>
+        </div>
+        <div class="data-card">
+          <div><span>CODENAME</span><strong>PRIYANSHU</strong></div>
+          <div><span>MODE</span><strong>LEARNING</strong></div>
+          <div><span>STATUS</span><strong class="online">ONLINE</strong></div>
+          <div><span>MISSION</span><strong>CREATE</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-tag">02 // SKILLS</div>
+      <h3>THE <span>TOOLKIT</span></h3>
+      <div class="cards">
+        <article class="card"><div class="num">01</div><h4>WEB CODE</h4><p>HTML, CSS and JavaScript for interactive web experiences.</p><div class="bar"><i style="width:92%"></i></div></article>
+        <article class="card"><div class="num">02</div><h4>UI / UX</h4><p>Cyberpunk layouts, responsive interfaces and visual effects.</p><div class="bar"><i style="width:86%"></i></div></article>
+        <article class="card"><div class="num">03</div><h4>PROBLEM SOLVING</h4><p>Learning by experimenting, debugging and building projects.</p><div class="bar"><i style="width:88%"></i></div></article>
+      </div>
+    </section>
+
+    <section id="terminal" class="section terminal-section">
+      <div class="section-tag">03 // SAFE TERMINAL</div>
+      <h3>COMMAND <span>CONSOLE</span></h3>
+      <div class="console">
+        <div class="console-top"><span>● ● ●</span><b>SAFE_SIMULATION.EXE</b></div>
+        <div id="output" class="output">
+          <div>PRIYANSHU OS v1.0</div>
+          <div>Type <b>help</b> to see available commands.</div>
+        </div>
+        <form id="commandForm">
+          <span class="prompt">guest@priyanshu:~$</span>
+          <input id="commandInput" autocomplete="off" spellcheck="false" aria-label="Terminal command">
+        </form>
+      </div>
+    </section>
+
+    <section class="section quote">
+      <div class="quote-mark">"</div>
+      <p>THE BEST WAY TO LEARN TECHNOLOGY<br><span>IS TO BUILD SOMETHING WITH IT.</span></p>
+      <small>// PRIYANSHU CYBER LAB</small>
+    </section>
+  </main>
+
+  <footer>
+    <span>PRIYANSHU // THE HACKER</span>
+    <span>© <span id="year"></span> — SAFE CYBER DEMO</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
